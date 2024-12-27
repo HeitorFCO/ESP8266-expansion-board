@@ -8,7 +8,7 @@
 void setupOTA()
 {
   ArduinoOTA.setHostname("liamb-o-matic"); // Nome do controlador para carregamento OTA  
-  ArduinoOTA.setPasswordHash("2655e0d4397dc758acfbbbfff348ede2"); // Password em hash
+  //ArduinoOTA.setPasswordHash(""); // Password em hash
   ArduinoOTA.onStart([]() {
     String type;
     if (ArduinoOTA.getCommand() == U_FLASH) {
