@@ -31,16 +31,16 @@ d1 = 5,  // SCL [VAZIO]
 d2 = 4,  // SDA [VAZIO]
 d3 = 0,  // Pino de DADOS conectado à porta D3 (GPIO5)  - SR 14 (MULTIPLEXADOR DE SAIDA)
 d4 = 2,  // Pino de CLOCK conectado à porta D4 (GPIO4)  - SR 11 (MULTIPLEXADOR DE SAIDA)
-d5 = 14, // pino s0 (MULTIPLEXADOR DE ENTRADA)
-d6 = 12, // pino s1 (MULTIPLEXADOR DE ENTRADA)
-d7 = 13, // pino s2 (MULTIPLEXADOR DE ENTRADA)
-d8 = 15; // pino s3 (MULTIPLEXADOR DE ENTRADA)
+d5 = 14, //
+d6 = 12, //
+d7 = 13, //
+d8 = 15; //
 
 byte pinos[9] = {16, 5, 4, 0, 2, 14, 12, 13, 15};
 
 // _________________________________________________________________________________
 
-//     MULTIPLEXADOR SAÍDA 
+//     MULTIPLEXADOR SAÍDA
 
 
 // MULTIPLEXADOR SHIFT REGISTER COM 8 PORTAS DE SAIDA, EXPANSÍVEL
